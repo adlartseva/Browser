@@ -42,4 +42,14 @@ browser.sessionhistory.max_entries - выставляем 10
 *
 browser.sessionhistory.max_entries -
 
-network.dns.disableIPv6 -> true
+network.dns.disableIPv6 -> false
+
+nglayout.initialpaint.delay -> 0 (создать - целое)
+network.http.pipelining -> true
+network.http.proxy.pipelining -> true
+network.http.pipelining.maxrequests -> 32
+content.notify.backoffcount -> 5
+ui.submenuDelay -> 0
+plugin.expose_full_path -> true
+
+-- http://sonikelf.ru/razgonyaem-mozilku/ --
