@@ -1,0 +1,43 @@
+######################
+######Firefox#########
+####kosha 2.01 ver.####
+#####################
+
+About:config
+
+browser.sessionhistory.max_total_viewers  → выставляем значение 0                                                     
+
+Создать → Логическое: config.trim_on_minimize  - выставляем значение true
+
+ПЕРЕЗАПУСКАЕМ БРАУЗЕР!
+
+*
+browser.session... - отвечает за кол-во отведенной оперативной памяти 0-выкл
+config.trim_on... -  отвечает за выгрузку Firefox в файл подкачки пока браузер свернут.
+
+browser.cache.memory.enable →  выставляем значение false
+browser.cache.memory.max_entry_size → выставляем значение 4096
+
+*
+browser.cache...enable - вкл./откл. использование оперативной памяти
+browser.cache...size - память под нужды кэша
+
+ПЕРЕЗАПУСКАЕМ БРАУЗЕР!
+
+browser.display.focus_ring_width - выставляем значение 0 
+layout.spellcheckDefault - выставляем значение 2
+layout.word_select.eat_space_to_next_word -  выставляем значение false
+security.dialog_enable_delay - выставляем значение 0
+
+*
+browser.display... - отвечает за пунктирную рамку вокруг ссылок
+layout.spellcheckDefault - вкл. мгновенную авто проверку орфографии
+layout.word_select... - исправляет недоразумения
+security.dialog... - убираем задержку
+
+ПЕРЕЗАПУСКАЕМ БРАУЗЕР!
+
+browser.sessionhistory.max_entries - выставляем 10
+
+*
+browser.sessionhistory.max_entries -
