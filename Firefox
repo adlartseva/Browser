@@ -41,3 +41,5 @@ browser.sessionhistory.max_entries - выставляем 10
 
 *
 browser.sessionhistory.max_entries -
+
+network.dns.disableIPv6 -> true
